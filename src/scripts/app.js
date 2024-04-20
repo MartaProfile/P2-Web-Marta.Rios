@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 
-     // Agregar eventos de clic manualmente a las flechas de navegación
      const nextButton = document.querySelector('.swiper-button-next');
      const prevButton = document.querySelector('.swiper-button-prev');
  
@@ -55,14 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
   
       if (!nombre || !apellidos || !email) {
         alert('Por favor, completa todos los campos requeridos.');
-        e.preventDefault(); // Evita que el formulario se envíe
+        e.preventDefault();
       }
   
       if (!terms) {
         alert('Debes aceptar la política de privacidad para continuar.');
-        e.preventDefault(); // Evita que el formulario se envíe
+        e.preventDefault(); 
       }
   
-      // Si todo está correcto, el evento 'submit' continúa y el formulario se enviará
     });
   });
