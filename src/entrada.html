@@ -7,6 +7,7 @@
     <meta name="description" content="Web Maldita Nerea">
     <link rel="stylesheet" href="estilos/normalize.css" type="text/css">
     <link rel="stylesheet" href="estilos/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/icons8-turtle-64-blanco.png" type="image/x-icon">
     <script type="module" src="scripts/app.js"></script>
     <title>Disco Manual Para Seres Maravillos</title>
 </head>
@@ -36,10 +37,12 @@
                 <header class="entrada_header">
                     <h2>Manual Para Seres Maravillosos</h2>
 
-                    <div class="entrada_header--img">
-                        <img src="img/maldita-nerea.8.jpg" alt="Disco Manual Para Seres Maravillos" width="400" height="400">
+                    <picture class="entrada_header--img">
+                        <source media="(max-width: 480px)" srcset="img/maldita-nerea.8-arte2.webp">
+                        <img src="img/maldita-nerea.8-desktop.webp" alt="Disco Manual Para Seres Maravillos">
                         <p>Por Marta Ríos</p>
-                    </div>
+                    </picture>
+
                 </header>
 
                 <div class="entrada_intro">
@@ -101,69 +104,109 @@
                         <dd>
                             <p class="entrada_secciones--texto">Esta pista representa un audaz experimento musical al abordar el amor desde una perspectiva infantil, algo poco común en la música pop actual. 
                             La inclusión de voces infantiles y su enfoque educativo la convierten en una pieza memorable que trasciende las barreras generacionales.</p>
-                            <img src="img/inevitable.png" alt="Canción Inevitable" class="entrada_secciones--img">
+                            <img src="img/inevitable.png" 
+                                srcset="img/inevitable-movil.png 1x
+                                        img/inevitable.png 2x"
+                                alt="Canción Inevitable" 
+                                class="entrada_secciones--img">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Madre</dt>
                         <dd>
                             <p class="entrada_secciones--textoDos">"Madre" se sumerge en la complejidad de las relaciones familiares, utilizando el silencio como metáfora del amor incondicional y el sacrificio. 
                             La canción destila una emotividad cruda que toca fibras profundas en el oyente, recordándonos la importancia de los lazos maternales.</p>
-                            <img src="img/madre.png" alt="Canción Madre" class="entrada_secciones--imgDos">
+                            <img src="img/madre.png" 
+                                srcset="img/madre-movil.png 1x,
+                                        img/madre.png 2x"
+                                alt="Canción Madre" 
+                                class="entrada_secciones--imgDos">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Nosotros</dt>
                         <dd>
                             <p class="entrada_secciones--texto">Esta canción celebra la unión y la colectividad, resaltando cómo los lazos humanos nos fortalecen y definen. 
                             Con un arreglo musical que complementa a la perfección su mensaje, "Nosotros" es un himno a la solidaridad y al compañerismo.</p>
-                            <img src="img/nosotros.png" alt="Canción Nosotros" class="entrada_secciones--img">
+                            <img src="img/nosotros.png" 
+                                srcset="img/nosotros.png 1x,
+                                        img/nosotros.png 2x"
+                                alt="Canción Nosotros" 
+                                class="entrada_secciones--img">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Estabas Conmigo</dt>
                         <dd>
                             <p class="entrada_secciones--textoDos">Reflexiona sobre la presencia ausente de seres queridos que han dejado una marca indeleble en nuestras vidas. 
                             La canción navega por el dolor de la pérdida y la belleza del recuerdo, ofreciendo consuelo a través de la aceptación y la memoria.</p>
-                            <img src="img/tiempo.png" alt="Canción Estabas Conmigo" class="entrada_secciones--imgDos">
+                            <img src="img/tiempo.png" 
+                                srcset="img/tiempo.png 1x, 
+                                        img/tiempo.png 2x"
+                                alt="Canción Estabas Conmigo" 
+                                class="entrada_secciones--imgDos">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Quiere</dt>
                         <dd>
                             <p class="entrada_secciones--texto">En "Quiere", Maldita Nerea explora las distintas facetas del amor, desde su inocencia hasta su complejidad. 
                             La pista destaca por su capacidad de capturar la esencia del sentimiento amoroso en todas sus manifestaciones.</p>
-                            <img src="img/Quiere.png" alt="Canción Quiere" class="entrada_secciones--img">
+                            <img src="img/Quiere.png" 
+                                srcset="img/Quiere.png 1x,
+                                        img/Quiere.png 2x"
+                                alt="Canción Quiere" 
+                                class="entrada_secciones--img">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Y Solo Arder y Duele</dt>
                         <dd>
                             <p class="entrada_secciones--textoDos">Estas canciones profundizan en el tema del desamor y la superación personal. 
                             Con una mezcla de melancolía y esperanza, ofrecen una mirada introspectiva a la resiliencia del espíritu humano ante la adversidad.</p>
-                            <img src="img/arder.png" alt="Canción Y Solo Arder" class="entrada_secciones--imgDos">
+                            <img src="img/arder.png" 
+                                srcset="img/arder.png 1x,
+                                        img/arder.png 2x"
+                                alt="Canción Y Solo Arder" 
+                                class="entrada_secciones--imgDos">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Lágrimas</dt>
                         <dd>
                             <p class="entrada_secciones--texto">"Lágrimas" es una oda a la vulnerabilidad y la fuerza que reside en expresar nuestras emociones más profundas. 
                             La canción es un recordatorio de que llorar no es signo de debilidad, sino de una profunda humanidad.</p>
-                            <img src="img/lagrimas.png" alt="Canción Lágrimas" class="entrada_secciones--img">
+                            <img src="img/lagrimas.png" 
+                                srcset="img/lagrimas.png 1x,
+                                        img/lagrimas.png 2x"
+                                alt="Canción Lágrimas" 
+                                class="entrada_secciones--img">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">La Increíble Historia Entre Tú y Yo</dt>
                         <dd>
                             <p class="entrada_secciones--textoDos">Esta pista se destaca por su narrativa optimista, que celebra los encuentros fortuitos y las conexiones inesperadas que dan forma a nuestras vidas.</p>
-                            <img src="img/historia.png" alt="Canción Historia" class="entrada_secciones--imgDos">
+                            <img src="img/historia.png" 
+                                srcset="img/historia.png 1x,
+                                        img/historia.png 2x"
+                                alt="Canción Historia" 
+                                class="entrada_secciones--imgDos">
                         </dd>
 
                         <dt class="entrada_secciones--titulo">Pintado Con Sueños</dt>
                         <dd>
                             <p class="entrada_secciones--texto">A través de esta canción, el álbum invita a los oyentes a perseguir sus sueños sin temor. 
                             Es un llamado a la acción para vivir con pasión y determinación, sin importar los obstáculos.</p>
-                            <img src="img/sueños.png" alt="Canción Pintado Con Sueños" class="entrada_secciones--img">
+                            <img src="img/sueños.png" 
+                                srcset="img/sueños.png 1x,
+                                        img/sueños.png 2x"
+                                alt="Canción Pintado Con Sueños" 
+                                class="entrada_secciones--img">
                         </dd>
 
                         <dt>Te Prometo Libertad</dt>
                         <dd>
                             <p class="entrada_secciones--textoDos">Cierra el álbum con una promesa de liberación, tanto personal como colectiva. 
                             La canción es un himno empoderador que alienta a los oyentes a liberarse de las cadenas que restringen su potencial.</p>
-                            <img src="img/libertad.png" alt="Canción Libertad" class="entrada_secciones--imgDos">
+                            <img src="img/libertad.png" 
+                                srcset="img/libertad.png 1x,
+                                        img/libertad.png 2x"
+                                alt="Canción Libertad" 
+                                class="entrada_secciones--imgDos">
                         </dd>
                     </dl>
 

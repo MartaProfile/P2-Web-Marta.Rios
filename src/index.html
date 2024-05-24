@@ -7,6 +7,7 @@
     <meta name="description" content="Web Maldita Nerea">
     <link rel="stylesheet" href="estilos/normalize.css" type="text/css">
     <link rel="stylesheet" href="estilos/styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/icons8-turtle-64-blanco.png" type="image/x-icon">
     <script type="module" src="scripts/app.js"></script>
     <title>Web Maldita Nerea</title>
 </head>
@@ -19,12 +20,30 @@
 
 <!-- CUERPO -->
 
-    <main class="imagen-fondo">
-        <figure class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ePXM0k9Ag?si=Om4qFC-FWjkygX38" title="YouTube video player" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </figure>
+    <main class="contenedor">
+
+        <div class="titulo-index">
+            <h1 class="titulo-index_clip">NUEVO DISCO</h1>
+        </div>
+
+        <div class="imagen-fondo">
+            <figure class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ePXM0k9Ag?si=Om4qFC-FWjkygX38" title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </figure>
+
+            <div class="imagen-disco">
+                <img class="imagen-disco_nuevo" 
+                     src="img/maldita-nerea.8-desktop.webp" 
+                     srcset="img/maldita-nerea.8-movil.webp 200w,
+                             img/maldita-nerea.8-desktop.webp 400w,"
+                     sizes="(max-width: 480px) 60vw,
+                            400px" 
+                     alt="Nuevo disco">
+            </div>
+        </div>
+ 
     </main>
 
 

@@ -16,19 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        autoplay: {
-            delay: 3000
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
-        },
     });
 
      const nextButton = document.querySelector('.swiper-button-next');
