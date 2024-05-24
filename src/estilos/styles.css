@@ -352,10 +352,10 @@ ul li {
 
 @keyframes revealImage {
     from {
-        clip-path: circle(0% at 50% 50%);           /* Comienza con un círculo completamente cerrado en el centro */
+        clip-path: circle(0% at 50% 50%);
     }
     to {
-        clip-path: circle(150% at 50% 50%);      /* Expande el círculo más allá del tamaño necesario para asegurar cobertura completa */
+        clip-path: circle(150% at 50% 50%);
     }
 }
 
